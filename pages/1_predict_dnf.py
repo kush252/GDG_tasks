@@ -37,6 +37,3 @@ if submitted:
         st.error("🚨 The driver is likely to **DNF (Did Not Finish)**.")
     else:
         st.success("✅ The driver is likely to **finish the race!**")
-
-    with st.expander("🔍 View Encoded Input Data"):
-        st.dataframe(encoded_cols)
